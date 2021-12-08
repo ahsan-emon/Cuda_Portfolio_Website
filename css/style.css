@@ -540,4 +540,91 @@ body {
   padding-bottom: 50px;
   letter-spacing: 1.5px;
 }
+.get-in-touch-contact {
+  width: 29%;
+  margin: auto;
+}
+.contact-layout1 {
+  overflow: hidden;
+}
+.contact-layout1-left {
+  float: left;
+}
+.contact-layout1-left input {
+  background-color: #273a71;
+  width: 60%;
+  padding: 10px 80px 10px 20px;
+  border: hidden;
+  border-radius: 4px;
+  margin-right: 10px;
+  color: #fff;
+  outline: none;
+}
+.contact-layout1-left input::placeholder {
+  color: #fff;
+}
+.contact-layout1-right {
+  float: right;
+}
+.contact-layout1-right input {
+  background-color: #273a71;
+  width: 60%;
+  padding: 10px 80px 10px 20px;
+  border: hidden;
+  border-radius: 4px;
+  margin-left: 10px;
+  color: #fff;
+  outline: none;
+}
+.contact-layout1-right input::placeholder {
+  color: #fff;
+  border: hidden;
+}
+.contact-layout2 input {
+  background-color: #273a71;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 96.5%;
+  padding: 10px 0 150px 20px;
+  border: hidden;
+  border-radius: 4px;
+  color: #fff;
+  outline: none;
+}
+.contact-layout2 input::placeholder {
+  color: #fff;
+}
+.get-in-touch-bottom {
+  text-align: center;
+  padding-bottom: 70px;
+}
+.get-in-touch-bottom a {
+  color: #fff;
+  background-color: #30bae7;
+  padding: 10px 40px;
+  font-size: 12px;
+  border-radius: 3px;
+  border-shadow: ;
+  display: inline-block;
+  box-shadow: 0 5px 0 #299ec5;
+}
+.get-in-touch-bottom a:hover {
+  box-shadow: 0 0 0 transparent;
+}
 /* get in touch style end here  */
+/* footer area style start here  */
+footer {
+  background-color: #344b8e;
+  padding: 25px 0;
+  text-align: center;
+}
+footer a {
+  color: #fff;
+  padding-left: 35px;
+}
+footer a:hover,
+footer a.active {
+  color: #30bae7;
+  padding-left: 35px;
+}
+/* footer area style end here  */
