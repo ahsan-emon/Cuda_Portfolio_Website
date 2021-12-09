@@ -72,6 +72,7 @@ body {
 }
 .call-to-action-header a:hover {
   box-shadow: 0 0 0 #c86a40;
+  background-color: #c86a40;
 }
 /* header area style end here  */
 /* services area style start here  */
@@ -362,6 +363,7 @@ body {
 }
 .call-to-action-portfolio a:hover {
   box-shadow: 0 0 0 #14a58c;
+  background-color: #14a58c;
 }
 /* portfolio area style start here  */
 /* about us area style start here  */
@@ -603,6 +605,7 @@ body {
 }
 .get-in-touch-bottom input:hover {
   box-shadow: 0 0 0 transparent;
+  background-color: #299ec5;
 }
 /* get in touch style end here  */
 /* footer area style start here  */
