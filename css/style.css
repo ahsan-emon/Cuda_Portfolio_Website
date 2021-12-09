@@ -513,6 +513,10 @@ body {
   background-color: #3c5499;
   padding-top: 10px;
 }
+.middle-get-in-touch {
+  width: 60%;
+  margin: auto;
+}
 .get-in-touch-area .middle-get-in-touch > h2 {
   font-size: 28px;
   color: #fff;
@@ -533,98 +537,92 @@ body {
 .get-in-touch-area .middle-get-in-touch > p {
   font-size: 15px;
   color: #fff;
-  width: 35%;
+  width: 55%;
   margin: auto;
   text-align: center;
   padding-top: 8px;
   padding-bottom: 50px;
   letter-spacing: 1.5px;
 }
-.get-in-touch-contact {
-  width: 29%;
+.contact-box {
+  width: 80%;
   margin: auto;
 }
-.contact-layout1 {
+.username {
   overflow: hidden;
+  margin-bottom: 20px;
 }
-.contact-layout1-left {
+.username input {
+  font-size: 20px;
+  background-color: #273a72;
+  padding: 10px;
+  color: #fff;
+  border: 1px solid transparent;
+  outline: none;
+  border-radius: 5px;
+}
+.username input::placeholder {
+  color: #fff;
+}
+.username input:first-child {
+  width: 47%;
   float: left;
 }
-.contact-layout1-left input {
-  background-color: #273a71;
-  width: 60%;
-  padding: 10px 80px 10px 20px;
-  border: hidden;
-  border-radius: 4px;
-  margin-right: 10px;
-  color: #fff;
-  outline: none;
-}
-.contact-layout1-left input::placeholder {
-  color: #fff;
-}
-.contact-layout1-right {
+.username input:last-child {
+  width: 47%;
   float: right;
 }
-.contact-layout1-right input {
-  background-color: #273a71;
-  width: 60%;
-  padding: 10px 80px 10px 20px;
-  border: hidden;
-  border-radius: 4px;
-  margin-left: 10px;
+.contact-box textarea {
+  font-size: 20px;
+  background-color: #273a72;
+  padding: 10px;
   color: #fff;
+  border: 1px solid transparent;
   outline: none;
+  border-radius: 5px;
+  width: 98%;
 }
-.contact-layout1-right input::placeholder {
-  color: #fff;
-  border: hidden;
-}
-.contact-layout2 input {
-  background-color: #273a71;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  width: 96.5%;
-  padding: 10px 0 150px 20px;
-  border: hidden;
-  border-radius: 4px;
-  color: #fff;
-  outline: none;
-}
-.contact-layout2 input::placeholder {
+.contact-box textarea::placeholder {
   color: #fff;
 }
 .get-in-touch-bottom {
+  margin-top: 20px;
   text-align: center;
   padding-bottom: 70px;
 }
-.get-in-touch-bottom a {
+.get-in-touch-bottom input {
   color: #fff;
   background-color: #30bae7;
-  padding: 10px 40px;
+  padding: 15px 50px;
   font-size: 12px;
   border-radius: 3px;
-  border-shadow: ;
   display: inline-block;
   box-shadow: 0 5px 0 #299ec5;
+  border: hidden;
+  cursor: pointer;
 }
-.get-in-touch-bottom a:hover {
+.get-in-touch-bottom input:hover {
   box-shadow: 0 0 0 transparent;
 }
 /* get in touch style end here  */
 /* footer area style start here  */
-footer {
+.footer-area {
   background-color: #344b8e;
   padding: 25px 0;
+}
+.footer-menu ul {
   text-align: center;
 }
-footer a {
-  color: #fff;
-  padding-left: 35px;
+.footer-menu ul li {
+  display: inline-block;
 }
-footer a:hover,
-footer a.active {
+.footer-menu ul li a {
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 30px;
+  font-weight: bold;
+}
+.footer-menu ul li a:hover {
   color: #30bae7;
-  padding-left: 35px;
 }
 /* footer area style end here  */
