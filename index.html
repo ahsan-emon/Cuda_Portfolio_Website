@@ -301,10 +301,19 @@
     <div class="contact-box">
       <form action="">
         <div class="username">
-          <input type="text" placeholder="Your Name">
-          <input type="text" placeholder="Your Email">
+          <div class="name-field">
+            <label for="name">Your Name <span>*</span></label>
+            <input type="text" id="name">
+          </div>
+          <div class="email-field">
+            <label for="email">Your Email <span>*</span></label>
+            <input type="text" id="email" >
+          </div>
         </div>
-        <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
+        <div class="message-field">
+          <label for="message">Your Message <span>*</span></label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+        </div>
         <div class="get-in-touch-bottom">
           <input type="submit" value="Send Message">
         </div>
@@ -347,9 +356,20 @@
   <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script type="text/javascript">
-    (function(){
+    (function($){
       $(document).ready(function(){
-
+        $(".name-field input").focus(function(){
+          $(".name-field label").hide(function(){
+          });
+        });
+        $(".email-field input").focus(function(){
+          $(".email-field label").hide(function(){
+          });
+        });
+        $(".message-field textarea").focus(function(){
+          $(".message-field label").hide(function(){
+          });
+        });
       });
     })(jQuery)
   </script>
