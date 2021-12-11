@@ -231,6 +231,24 @@ body {
   padding-top: 8px;
   padding-bottom: 20px;
 }
+.pie-title-center {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+.pie-value {
+  display: block;
+  position: absolute;
+  font-size: 40px;
+  font-weight: 400;
+  height: 40px;
+  color: #566076;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin-top: -20px;
+  line-height: 40px;
+}
 .middle-skill {
   width: 70%;
   margin: auto;
@@ -301,50 +319,38 @@ body {
   text-transform: uppercase;
   background-color: #ebc985;
   margin-right: 5px;
+  cursor: pointer;
 }
 .portfolio-menu ul li a:hover,
 .portfolio-menu ul li a.on {
   background-color: #fff;
 }
-.portfolio-img-layout1 {
+.portfolio-img-layout {
   width: 60%;
   overflow: hidden;
   text-align: center;
   margin: auto;
   padding-bottom: 25px;
 }
-.portfolio-img-layout1 p {
-  margin-top: 10px;
+.portfolio-img-layout h5 {
   text-transform: uppercase;
-  color: 393939;
+  color: #393939;
   font-size: 15px;
+  margin: 15px 0 30px 0;
 }
 .layout1-img1 {
   float: left;
   margin-right: 20px;
 }
 .layout1-img2 {
-  float: left;
+  float: right;
 }
-.portfolio-img-layout2 {
-  width: 60%;
-  overflow: hidden;
-  text-align: center;
-  margin: auto;
-  padding-bottom: 20px;
-}
-.portfolio-img-layout2 p {
-  margin-top: 10px;
-  text-transform: uppercase;
-  color: 393939;
-  font-size: 15px;
-}
-.layout2-img1 {
+.layout1-img3 {
   float: left;
   margin-right: 20px;
 }
-.layout2-img2 {
-  float: left;
+.layout1-img4 {
+  float: right;
 }
 .call-to-action-portfolio {
   text-align: center;
@@ -516,7 +522,7 @@ body {
   padding-top: 10px;
 }
 .middle-get-in-touch {
-  width: 60%;
+  width: 50%;
   margin: auto;
 }
 .get-in-touch-area .middle-get-in-touch > h2 {
@@ -547,7 +553,7 @@ body {
   letter-spacing: 1.5px;
 }
 .contact-box {
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 .username {
@@ -577,7 +583,6 @@ body {
 }
 .message-field {
   width: 100%;
-  float: left;
   position: relative;
 }
 .name-field label {

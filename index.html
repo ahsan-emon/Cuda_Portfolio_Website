@@ -12,12 +12,12 @@
   <meta property="og:type" content="">
   <meta property="og:url" content="">
   <meta property="og:image" content="">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/fontawesome.min.css">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/all.min.css">
   <!-- google font here  -->
   <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/20bb288a86.js" crossorigin="anonymous"></script>
   <meta name="theme-color" content="#fafafa">
 </head>
 <body>
@@ -180,19 +180,27 @@
     <p>We are working with both individuals and businesses to you from all over the globe to create awesome websites and applications.</p>
     <div class="skill-boxes">
       <div class="box2">
-        <img src="img/skill1.png" alt="Skills">
+        <div class="sk1 pie-title-center" data-percent="90">
+            <span class="pie-value">90%</span>
+        </div>
         <h2>web design</h2>
       </div>
       <div class="box2">
-        <img src="img/skill2.png" alt="Skills">
+        <div class="sk2 pie-title-center" data-percent="75">
+          <span class="pie-value">75%</span>
+        </div>
         <h2>html / css</h2>
       </div>
       <div class="box2">
-        <img src="img/skill3.png" alt="Skills">
+        <div class="sk3 pie-title-center" data-percent="70">
+          <span class="pie-value">70%</span>
+        </div>
         <h2>graphic design</h2>
       </div>
       <div class="box2">
-        <img src="img/skill4.png" alt="Skills">
+        <div class="sk4 pie-title-center" data-percent="85">
+          <span class="pie-value">85%</span>
+        </div>
         <h2>ui / ux</h2>
       </div>
     </div>
@@ -207,30 +215,28 @@
     <p>We are working with both individuals and businesses to you the globe to create awesome websites and applications.</p>
     <nav class="portfolio-menu">
       <ul>
-        <li><a class="on" href="#">All</a></li>
-        <li><a href="#">Web</a></li>
-        <li><a href="#">Apps</a></li>
-        <li><a href="#">Icons</a></li>
+        <li><a class="on" data-filter="*">All</a></li>
+        <li><a data-filter=".web">Web</a></li>
+        <li><a data-filter=".apps">Apps</a></li>
+        <li><a data-filter=".icons">Icons</a></li>
       </ul>
     </nav>
-    <div class="portfolio-img-layout1">
-      <div class="layout1-img1">
+    <div class="portfolio-img-layout">
+      <div class="layout1-img1 mix apps">
         <img src="img/portfolio1.png" alt="Portfolio">
-        <p>isometric perspective mock-up</p>
+        <h5>isometric perspective mock-up</h5>
       </div>
-      <div class="layout1-img2">
+      <div class="layout1-img2 mix web apps icons">
         <img src="img/portfolio2.png" alt="Portfolio">
-        <p>time zone app ui</p>
+        <h5>time zone app ui</h5>
       </div>
-    </div>
-    <div class="portfolio-img-layout2">
-      <div class="layout2-img1">
+      <div class="layout1-img3 mix icons">
         <img src="img/portfolio3.png" alt="Portfolio">
-        <p>viro media players ui</p>
+        <h5>viro media players ui</h5>
       </div>
-      <div class="layout2-img2">
+      <div class="layout1-img4 mix web apps">
         <img src="img/portfolio4.png" alt="Portfolio">
-        <p>blog / magazine flat ui kit</p>
+        <h5>blog / magazine flat ui kit</h5>
       </div>
     </div>
     <div class="call-to-action-portfolio">
@@ -319,22 +325,6 @@
         </div>
       </form>
   </div>
-    <!-- <div class="get-in-touch-contact">
-      <div class="contact-layout1">
-        <div class="contact-layout1-left">
-          <input type="text" placeholder="Your Name">
-        </div>
-        <div class="contact-layout1-right">
-          <input type="email" placeholder="Your Email">
-        </div>
-      </div>
-      <div class="contact-layout2">
-        <input type="text" placeholder="Your Message">
-      </div>
-    </div>
-    <div class="get-in-touch-bottom">
-      <a href="#">SEND MESSAGE</a>
-    </div> -->
   </div>
 </section>
 <!-- get in touch end here  -->
@@ -342,18 +332,20 @@
 <footer class="footer-area">
   <nav class="footer-menu">
     <ul>
-      <li><a href="#">Facebook</a>      
-      <li><a class="active" href="#">Twitter</a></li>
-      <li><a href="#">Google+</a></li>
-      <li><a href="#">Linkedin</a></li>
-      <li><a href="#">Behance</a></li>
-      <li><a href="#">Dribbble</a></li>
-      <li><a href="#">GitHub</a></li></li>
+      <li><a href="https://www.facebook.com/ahsanullah.emon/">Facebook</a>      
+      <li><a class="active" href="https://twitter.com/Ahsan68484633">Twitter</a></li>
+      <li><a href="https://www.youtube.com/c/AhsanUllahEmon">YouTube</a></li>
+      <li><a href="https://www.linkedin.com/in/md-ahsan-ullah-emon-ab06b91a1/">Linkedin</a></li>
+      <li><a href="https://www.instagram.com/ahsan_ullah_emon/">Instagram</a></li>
+      <li><a href="https://github.com/ahsan-emon">GitHub</a></li></li>
     </ul>
   </nav>
 </footer>
 <!-- footer area end here  -->
   <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="js/pie-chart.js"></script>
+  <script type="text/javascript" src="js/mixitup.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script type="text/javascript">
     (function($){
@@ -370,6 +362,31 @@
           $(".message-field label").hide(function(){
           });
         });
+        $('.sk1').pieChart({
+          barColor: '#30bae7',
+          trackColor: '#dfe8ed',
+          lineWidth: 13,
+          size: 160
+        });
+        $('.sk2').pieChart({
+          barColor: '#d74680',
+          trackColor: '#dfe8ed',
+          lineWidth: 13,
+          size: 160
+        });
+        $('.sk3').pieChart({
+          barColor: '#15c7a8',
+          trackColor: '#dfe8ed',
+          lineWidth: 13,
+          size: 160
+        });
+        $('.sk4').pieChart({
+          barColor: '#eb7d4b',
+          trackColor: '#dfe8ed',
+          lineWidth: 13,
+          size: 160
+        });
+        var mixing = mixitup('.portfolio-img-layout');
       });
     })(jQuery)
   </script>
