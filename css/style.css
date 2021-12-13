@@ -419,8 +419,8 @@ body {
   background-color: #3c5499;
   padding-top: 10px;
 }
-.middle-area {
-  width: 50%;
+.container {
+  width: 60%;
   margin: auto;
 }
 .get-in-touch-area .container > h2 {
@@ -451,10 +451,7 @@ body {
   padding-bottom: 50px;
   letter-spacing: 1.5px;
 }
-.contact-box {
-  width: 100%;
-  margin: auto;
-}
+
 .username {
   overflow: hidden;
   margin-bottom: 20px;
@@ -481,7 +478,7 @@ body {
   position: relative;
 }
 .message-field {
-  width: 100%;
+  width: 102%;
   position: relative;
 }
 .name-field label {
