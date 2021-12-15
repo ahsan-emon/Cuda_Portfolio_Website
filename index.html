@@ -12,19 +12,30 @@
   <meta property="og:type" content="">
   <meta property="og:url" content="">
   <meta property="og:image" content="">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/normalize.css">
   <!-- google font here  -->
   <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/20bb288a86.js" crossorigin="anonymous"></script>
   <meta name="theme-color" content="#fafafa">
+  <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="js/pie-chart.js"></script>
+  <script type="text/javascript" src="js/mixitup.min.js"></script>
+  <script type="text/javascript" src="js/uikit.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
   <!-- header area start here  -->
   <header class="header-area">
-    <div class="container">
-      <div class="header-top">
+    <div class="header-top" uk-sticky>
+      <div class="container">
         <div class="logo-area">
           <a href="#"><img src="img/logo.png" alt="Logo"></a>
         </div>
@@ -38,6 +49,7 @@
           </ul>
         </nav>
       </div>
+    </div>
       <div class="header-bottom">
         <h2>Hi there! We are the new kids on the block</h2> 
         <h2>and we build awesome websites and mobile apps!</h2>
@@ -45,7 +57,6 @@
           <a href="#">WORK WITH US!</a>
         </div>
       </div>
-    </div>
   </header>
   <!-- header area end here  -->
   <!-- services area start here  -->
@@ -340,54 +351,6 @@
   </nav>
 </footer>
 <!-- footer area end here  -->
-  <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-  <script type="text/javascript" src="js/pie-chart.js"></script>
-  <script type="text/javascript" src="js/mixitup.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script type="text/javascript">
-    (function($){
-      $(document).ready(function(){
-        $(".name-field input").focus(function(){
-          $(".name-field label").hide(function(){
-          });
-        });
-        $(".email-field input").focus(function(){
-          $(".email-field label").hide(function(){
-          });
-        });
-        $(".message-field textarea").focus(function(){
-          $(".message-field label").hide(function(){
-          });
-        });
-        $('.sk1').pieChart({
-          barColor: '#30bae7',
-          trackColor: '#dfe8ed',
-          lineWidth: 13,
-          size: 160
-        });
-        $('.sk2').pieChart({
-          barColor: '#d74680',
-          trackColor: '#dfe8ed',
-          lineWidth: 13,
-          size: 160
-        });
-        $('.sk3').pieChart({
-          barColor: '#15c7a8',
-          trackColor: '#dfe8ed',
-          lineWidth: 13,
-          size: 160
-        });
-        $('.sk4').pieChart({
-          barColor: '#eb7d4b',
-          trackColor: '#dfe8ed',
-          lineWidth: 13,
-          size: 160
-        });
-        var mixing = mixitup('.portfolio-img-layout');
-      });
-    })(jQuery)
-  </script>
 </body>
 
 </html>

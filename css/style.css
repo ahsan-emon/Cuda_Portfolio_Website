@@ -25,6 +25,11 @@ body {
 }
 .header-top {
   overflow: hidden;
+  background-color: #87509c;
+  padding: 20px 0;
+}
+.uk-sticky-fixed {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .main-menu ul {
   margin: 0;
@@ -39,6 +44,7 @@ body {
 }
 .main-menu ul li a {
   padding: 8px 20px;
+  margin-left: 2px;
   display: block;
   color: #fff;
   font-family: Titillium Web;
@@ -57,7 +63,7 @@ body {
 .header-bottom h2 {
   color: #f7f3ea;
   font-size: 43px;
-  line-height: 35px;
+  line-height: 45px;
 }
 .call-to-action-header a {
   background-color: #eb7d4b;
@@ -73,6 +79,8 @@ body {
 .call-to-action-header a:hover {
   box-shadow: 0 0 0 #c86a40;
   background-color: #c86a40;
+  text-decoration: none;
+  color: #f7f3ea;
 }
 /* header area style end here  */
 /* services area style start here  */
@@ -137,7 +145,7 @@ body {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 15px solid #c8d9e5;
+  border-bottom: 4px solid #c8d9e5;
   border-radius: 2px;
   margin-bottom: 15px;
   margin: auto;
@@ -283,7 +291,7 @@ body {
   padding-bottom: 20px;
 }
 .portfolio-menu {
-  width: 28%;
+  width: 34%;
   margin: auto;
 }
 .portfolio-menu ul {
@@ -304,6 +312,7 @@ body {
   background-color: #ebc985;
   margin-right: 5px;
   cursor: pointer;
+  text-decoration: none;
 }
 .portfolio-menu ul li a:hover,
 .portfolio-menu ul li a.on {
@@ -314,6 +323,7 @@ body {
   color: #393939;
   font-size: 15px;
   margin: 15px 0 30px 0;
+  text-align: center;
 }
 
 .call-to-action-portfolio {
@@ -334,6 +344,8 @@ body {
 .call-to-action-portfolio a:hover {
   box-shadow: 0 0 0 #14a58c;
   background-color: #14a58c;
+  text-decoration: none;
+  color: #fff;
 }
 /* portfolio area style start here  */
 /* about us area style start here  */
@@ -450,7 +462,7 @@ body {
 .get-in-touch-area .container > p {
   font-size: 15px;
   color: #fff;
-  width: 55%;
+  width: 60%;
   margin: auto;
   text-align: center;
   padding-top: 8px;
@@ -564,6 +576,7 @@ body {
   font-size: 20px;
   padding: 10px 30px;
   font-weight: bold;
+  text-decoration: none;
 }
 .footer-menu ul li a:hover {
   color: #30bae7;
