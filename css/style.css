@@ -6,10 +6,9 @@
 body {
   font-family: "Titillium Web", sans-serif;
 }
-/* header area style start here  */
 .header-area {
-  background-color: #87509c;
-  padding: 50px 0;
+  background-color: rgb(135, 80, 156);
+  padding: 50px 0px;
 }
 .container {
   width: 80%;
@@ -25,15 +24,15 @@ body {
 }
 .header-top {
   overflow: hidden;
-  background-color: #87509c;
-  padding: 20px 0;
+  background-color: rgb(135, 80, 156);
+  padding: 20px 0px;
 }
 .uk-sticky-fixed {
   background-color: rgba(0, 0, 0, 0.5);
 }
 .main-menu ul {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   float: right;
 }
 .main-menu ul li {
@@ -46,96 +45,90 @@ body {
   padding: 8px 20px;
   margin-left: 2px;
   display: block;
-  color: #fff;
-  font-family: Titillium Web;
+  color: rgb(255, 255, 255);
+  font-family: "Titillium Web";
   font-size: 16px;
   border-radius: 5px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .main-menu ul li a:hover,
 .main-menu ul li a.active {
-  background-color: #643a79;
+  background-color: rgb(100, 58, 121);
 }
 .header-bottom {
-  padding: 100px 0;
+  padding: 100px 0px;
   text-align: center;
 }
 .header-bottom h2 {
-  color: #f7f3ea;
+  color: rgb(247, 243, 234);
   font-size: 43px;
   line-height: 45px;
 }
 .call-to-action-header a {
-  background-color: #eb7d4b;
+  background-color: rgb(235, 125, 75);
   padding: 15px 50px;
-  margin: auto;
-  color: #f7f3ea;
+  margin: 30px auto auto;
+  color: rgb(247, 243, 234);
   font-size: 16px;
   display: inline-block;
-  margin-top: 30px;
   border-radius: 4px;
-  box-shadow: 0 5px 0px #c86a40;
+  box-shadow: rgb(200, 106, 64) 0px 5px 0px;
 }
 .call-to-action-header a:hover {
-  box-shadow: 0 0 0 #c86a40;
-  background-color: #c86a40;
+  box-shadow: rgb(200, 106, 64) 0px 0px 0px;
+  background-color: rgb(200, 106, 64);
   text-decoration: none;
-  color: #f7f3ea;
+  color: rgb(247, 243, 234);
 }
-/* header area style end here  */
-/* services area style start here  */
 .services-area {
-  background-color: #17c2a4;
-  padding: 50px 0;
+  background-color: rgb(23, 194, 164);
+  padding: 50px 0px;
 }
 .services-area .container > h2 {
   font-size: 40px;
-  color: #fff;
-  margin: 0;
+  color: rgb(255, 255, 255);
+  margin: 0px;
   padding-top: 50px;
   text-align: center;
   letter-spacing: 5px;
 }
 .container hr {
-  border-bottom: 5px solid #14a58c;
+  border-bottom: 5px solid rgb(20, 165, 140);
   width: 10%;
   border-radius: 30px;
   margin: auto;
 }
 .services-area .container > p {
   font-size: 19px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   width: 60%;
   margin: auto;
   text-align: center;
 }
-
 .services-boxes {
   text-align: center;
   margin-top: 50px;
 }
-
 .services-boxes .box h2 {
-  color: #fff;
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 .services-boxes .box p {
-  color: #fff;
+  color: rgb(255, 255, 255);
   width: 80%;
   margin: auto;
   padding-bottom: 50px;
 }
-/* services area style end here  */
-/* team introduce area style start here  */
 .team-area {
-  background-color: #e7f1f8;
+  background-color: rgb(231, 241, 248);
 }
 .team-area .container > h2 {
-  color: #3c4761;
+  color: rgb(60, 71, 97);
   text-transform: uppercase;
   text-align: center;
-  margin: 0;
+  margin: 0px;
   padding-top: 60px;
   letter-spacing: 3px;
   font-size: 30px;
@@ -145,20 +138,18 @@ body {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 4px solid #c8d9e5;
+  border-bottom: 4px solid rgb(200, 217, 229);
   border-radius: 2px;
-  margin-bottom: 15px;
   margin: auto;
 }
 .team-area .container > p {
   font-size: 15px;
-  color: #3c4761;
+  color: rgb(60, 71, 97);
   width: 60%;
   margin: auto;
   text-align: center;
   padding-bottom: 50px;
 }
-
 .team-boxes {
   text-align: center;
   padding-bottom: 70px;
@@ -166,21 +157,21 @@ body {
 .boxes .circle img {
   width: 200px;
   height: 200px;
-  background-color: #878787;
+  background-color: rgb(135, 135, 135);
   border-radius: 100px;
   margin: auto;
 }
 .boxes h2 {
-  margin: 20px 0 0 0;
+  margin: 20px 0px 0px;
   font-size: 22px;
 }
 .boxes p {
-  margin: 2px 0 15px 0;
+  margin: 2px 0px 15px;
   font-size: 15px;
-  color: #8cd1ee;
+  color: rgb(140, 209, 238);
 }
 .boxes .about-circle {
-  color: #9099a8;
+  color: rgb(144, 153, 168);
   width: 60%;
   margin: auto;
 }
@@ -192,18 +183,16 @@ body {
   display: inline-block;
   margin-top: 10px;
   font-size: 20px;
-  color: #bdd1df;
+  color: rgb(189, 209, 223);
 }
-/* team introduce area style end here    */
-/* skill area style start here  */
 .skill-area {
-  background-color: #fff;
-  padding: 50px 0;
+  background-color: rgb(255, 255, 255);
+  padding: 50px 0px;
 }
 .skill-area .container > h2 {
   font-size: 30px;
-  color: #3c4761;
-  margin: 0;
+  color: rgb(60, 71, 97);
+  margin: 0px;
   padding-top: 50px;
   text-align: center;
   letter-spacing: 5px;
@@ -212,14 +201,14 @@ body {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 3px solid #dfe8ed;
+  border-bottom: 3px solid rgb(223, 232, 237);
   width: 5%;
   border-radius: 30px;
   margin: auto;
 }
 .skill-area .container > p {
   font-size: 15px;
-  color: #818795;
+  color: rgb(129, 135, 149);
   width: 35%;
   margin: auto;
   text-align: center;
@@ -237,10 +226,10 @@ body {
   font-size: 40px;
   font-weight: 400;
   height: 40px;
-  color: #566076;
+  color: rgb(86, 96, 118);
   top: 50%;
-  left: 0;
-  right: 0;
+  left: 0px;
+  right: 0px;
   margin-top: -20px;
   line-height: 40px;
 }
@@ -254,20 +243,18 @@ body {
   padding-bottom: 50px;
 }
 .skill-boxes .box2 h2 {
-  color: #3c4761;
+  color: rgb(60, 71, 97);
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-/* skill area style end here  */
-/* portfolio area style start here  */
 .portfolio-area {
-  background-color: #ffdd99;
-  padding: 50px 0;
+  background-color: rgb(255, 221, 153);
+  padding: 50px 0px;
 }
 .portfolio-area .container > h2 {
   font-size: 30px;
-  color: #3c4761;
-  margin: 0;
+  color: rgb(60, 71, 97);
+  margin: 0px;
   padding-top: 50px;
   text-align: center;
   letter-spacing: 5px;
@@ -276,14 +263,14 @@ body {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 3px solid #e5c37f;
+  border-bottom: 3px solid rgb(229, 195, 127);
   width: 5%;
   border-radius: 30px;
   margin: auto;
 }
 .portfolio-area .container > p {
   font-size: 15px;
-  color: #393939;
+  color: rgb(57, 57, 57);
   width: 23%;
   margin: auto;
   text-align: center;
@@ -304,59 +291,54 @@ body {
 .portfolio-menu ul li a {
   padding: 6px 20px;
   display: block;
-  color: #393939;
-  font-family: Titillium Web;
+  color: rgb(57, 57, 57);
+  font-family: "Titillium Web";
   font-size: 15px;
   border-radius: 5px;
   text-transform: uppercase;
-  background-color: #ebc985;
+  background-color: rgb(235, 201, 133);
   margin-right: 5px;
   cursor: pointer;
   text-decoration: none;
 }
 .portfolio-menu ul li a:hover,
 .portfolio-menu ul li a.on {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
 }
 .portfolio-img-layout h5 {
   text-transform: uppercase;
-  color: #393939;
+  color: rgb(57, 57, 57);
   font-size: 15px;
-  margin: 15px 0 30px 0;
+  margin: 15px 0px 30px;
   text-align: center;
 }
-
 .call-to-action-portfolio {
   text-align: center;
 }
 .call-to-action-portfolio a {
-  background-color: #17c2a4;
+  background-color: rgb(23, 194, 164);
   padding: 15px 40px;
-  margin: auto;
-  color: #fff;
+  margin: 30px auto 20px;
+  color: rgb(255, 255, 255);
   font-size: 15px;
   display: inline-block;
-  margin-top: 30px;
-  margin-bottom: 20px;
   border-radius: 4px;
-  box-shadow: 0 5px 0px #14a58c;
+  box-shadow: rgb(20, 165, 140) 0px 5px 0px;
 }
 .call-to-action-portfolio a:hover {
-  box-shadow: 0 0 0 #14a58c;
-  background-color: #14a58c;
+  box-shadow: rgb(20, 165, 140) 0px 0px 0px;
+  background-color: rgb(20, 165, 140);
   text-decoration: none;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
-/* portfolio area style start here  */
-/* about us area style start here  */
 .about-us-area {
-  background-color: #d74680;
+  background-color: rgb(215, 70, 128);
   padding-top: 10px;
 }
 .about-us-area .container > h2 {
   font-size: 28px;
-  color: #fff;
-  margin: 0;
+  color: rgb(255, 255, 255);
+  margin: 0px;
   padding-top: 50px;
   text-align: center;
   letter-spacing: 5px;
@@ -366,14 +348,14 @@ body {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 3px solid #b73c6d;
+  border-bottom: 3px solid rgb(183, 60, 109);
   width: 4%;
   border-radius: 30px;
   margin: auto;
 }
 .about-us-area .container > p {
   font-size: 13px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   width: 23%;
   margin: auto;
   text-align: center;
@@ -381,40 +363,38 @@ body {
   padding-bottom: 50px;
 }
 .about-us-layout {
-  width: 80%;
+  width: 95%;
   overflow: hidden;
   margin: auto;
   padding-bottom: 70px;
+  padding-left: 65px;
 }
 .about-us-layout i {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 12px;
 }
 .about-us-layout h2 {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 16px;
-  margin: 16px 0 0 0;
+  margin: 16px 0px 0px;
 }
 .about-us-layout p {
-  color: #f0ab8f;
+  color: rgb(240, 171, 143);
   font-size: 12px;
-  margin: 2px 0 0 0;
+  margin: 2px 0px 0px;
 }
-
 .layout1-left-left img {
   width: 80px;
   height: 80px;
   border-radius: 40px;
   margin-bottom: 10px;
 }
-
 .layout1-right-left img {
   width: 80px;
   height: 80px;
   border-radius: 40px;
   margin-bottom: 10px;
 }
-
 .layout2-left-left img {
   width: 80px;
   height: 80px;
@@ -422,7 +402,6 @@ body {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-
 .layout2-right-left img {
   width: 80px;
   height: 80px;
@@ -430,11 +409,8 @@ body {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-
-/* about us area style end here  */
-/* get in touch style start here  */
 .get-in-touch-area {
-  background-color: #3c5499;
+  background-color: rgb(60, 84, 153);
   padding-top: 10px;
 }
 .container {
@@ -443,8 +419,8 @@ body {
 }
 .get-in-touch-area .container > h2 {
   font-size: 28px;
-  color: #fff;
-  margin: 0;
+  color: rgb(255, 255, 255);
+  margin: 0px;
   padding-top: 50px;
   text-align: center;
   letter-spacing: 5px;
@@ -454,14 +430,14 @@ body {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 3px solid #273a71;
+  border-bottom: 3px solid rgb(39, 58, 113);
   width: 4%;
   border-radius: 30px;
   margin: auto;
 }
 .get-in-touch-area .container > p {
   font-size: 15px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   width: 60%;
   margin: auto;
   text-align: center;
@@ -469,16 +445,15 @@ body {
   padding-bottom: 50px;
   letter-spacing: 1.5px;
 }
-
 .username {
   overflow: hidden;
   margin-bottom: 20px;
 }
 .username input {
   font-size: 20px;
-  background-color: #273a72;
+  background-color: rgb(39, 58, 114);
   padding: 10px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   border: 1px solid transparent;
   outline: none;
   border-radius: 5px;
@@ -500,19 +475,19 @@ body {
   position: relative;
 }
 .name-field label {
-  color: #fff;
+  color: rgb(255, 255, 255);
   position: absolute;
   top: 12px;
   left: 17px;
 }
 .email-field label {
-  color: #fff;
+  color: rgb(255, 255, 255);
   position: absolute;
   top: 12px;
   left: 17px;
 }
 .message-field label {
-  color: #fff;
+  color: rgb(255, 255, 255);
   position: absolute;
   top: 12px;
   left: 17px;
@@ -528,16 +503,16 @@ body {
 }
 .contact-box textarea {
   font-size: 20px;
-  background-color: #273a72;
+  background-color: rgb(39, 58, 114);
   padding: 10px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   border: 1px solid transparent;
   outline: none;
   border-radius: 5px;
   width: 98%;
 }
 .contact-box textarea::placeholder {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 .get-in-touch-bottom {
   margin-top: 20px;
@@ -545,25 +520,23 @@ body {
   padding-bottom: 70px;
 }
 .get-in-touch-bottom input {
-  color: #fff;
-  background-color: #30bae7;
+  color: rgb(255, 255, 255);
+  background-color: rgb(48, 186, 231);
   padding: 15px 50px;
   font-size: 12px;
   border-radius: 3px;
   display: inline-block;
-  box-shadow: 0 5px 0 #299ec5;
+  box-shadow: rgb(41, 158, 197) 0px 5px 0px;
   border: hidden;
   cursor: pointer;
 }
 .get-in-touch-bottom input:hover {
-  box-shadow: 0 0 0 transparent;
-  background-color: #299ec5;
+  box-shadow: transparent 0px 0px 0px;
+  background-color: rgb(41, 158, 197);
 }
-/* get in touch style end here  */
-/* footer area style start here  */
 .footer-area {
-  background-color: #344b8e;
-  padding: 25px 0;
+  background-color: rgb(52, 75, 142);
+  padding: 25px 0px;
 }
 .footer-menu ul {
   text-align: center;
@@ -572,13 +545,12 @@ body {
   display: inline-block;
 }
 .footer-menu ul li a {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 20px;
   padding: 10px 30px;
   font-weight: bold;
   text-decoration: none;
 }
 .footer-menu ul li a:hover {
-  color: #30bae7;
+  color: rgb(48, 186, 231);
 }
-/* footer area style end here  */
